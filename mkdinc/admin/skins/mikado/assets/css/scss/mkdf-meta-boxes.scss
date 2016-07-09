@@ -1,0 +1,23 @@
+.mkdf-meta-box {
+	table.mkdf-meta-box-holder {
+		width: 100%;
+
+		tr.mkdf-page-form-section {
+			th {
+				width: 250px;
+
+				p {
+					font-weight: 400;
+					color: #9e9e9e;
+				}
+			}
+
+			.mkdf-field-desc {
+				h4 {
+					margin-bottom: 1.5em;
+				}
+
+			}
+		}
+	}
+}

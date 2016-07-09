@@ -1,0 +1,41 @@
+.carousel-inner .slider_content .text.one_by_one.from_bottom .el{
+    top: 0px !important;
+}
+
+.fade_in.popup_menu_opened .popup_menu_holder_outer {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.portfolio_single .portfolio_social_like_holder > div.portfolio_single_like {
+	vertical-align: top;
+} 
+
+.portfolio_single .portfolio_social_like_holder .social_share_holder a {
+	width: 70px !important;
+}
+.portfolio_single .portfolio_social_like_holder .portfolio_single_like a {
+	width: 40px !important;
+	display: block;
+}
+
+.portfolio_single .portfolio_social_like_holder .portfolio_single_like i {
+	float: left !important;
+	padding-top: 5px;
+}
+
+.carousel-inner .active .slider_content .from_bottom.thumb {
+	-ms-transform:translateY(-80px);
+}
+
+.rotate_from_bottom.qbutton .text_wrap::before {
+	display: none !important; 
+}
+
+.image_above.testimonials .testimonial_image_holder {
+	position:relative !important;
+	display:  inline-block !important;
+	left:0px !important;
+	-ms-transform:translate(0,0) !important;
+	transform: none !important;
+}

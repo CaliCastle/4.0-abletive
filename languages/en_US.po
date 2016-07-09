@@ -1,0 +1,2528 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Burst v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-10-07 09:13:11+0000\n"
+"Last-Translator: admin <support@themesnoir.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:15
+#@ burst
+msgid "Page you are looking is Not Found"
+msgstr ""
+
+#: 404.php:17
+#@ burst
+msgid "The page you are looking for does not exist. It may have been moved, or removed altogether. Perhaps you can return back to the site’s homepage and see if you can find what you are looking for."
+msgstr ""
+
+#: 404.php:18
+#@ burst
+msgid "Back to homepage"
+msgstr ""
+
+#: comments.php:23
+#@ burst
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:23
+#@ burst
+msgid " Comment "
+msgstr ""
+
+#: comments.php:23
+#@ burst
+msgid " Comments "
+msgstr ""
+
+#: comments.php:26
+#@ burst
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:50
+#@ burst
+msgid "Sorry, the comment form is closed at this time."
+msgstr ""
+
+#: comments.php:63
+#@ burst
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:64
+#, php-format
+#@ burst
+msgid "Post a Reply to %s"
+msgstr ""
+
+#: comments.php:65
+#@ burst
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:66
+#: mkdinc/import/class.wordpress-importer.php:286
+#: woocommerce/single-product-reviews.php:64
+#@ burst
+msgid "Submit"
+msgstr ""
+
+#: comments.php:67
+#@ burst
+msgid "Write your comment here..."
+msgstr ""
+
+#: comments.php:71
+#: woocommerce/single-product-reviews.php:59
+#@ burst
+msgid "Name"
+msgstr ""
+
+#: comments.php:72
+#@ burst
+msgid "E-mail"
+msgstr ""
+
+#: comments.php:73
+#@ burst
+msgid "Website"
+msgstr ""
+
+#: extendvc/extend-vc.php:1944
+#: extendvc/extend-vc.php:11103
+#@ burst
+msgid "Insert border radius(Rounded corners) in px. For example: 4. Leave empty for default. "
+msgstr ""
+
+#: extendvc/extend-vc.php:2296
+#@ burst
+msgid "Open prettyPhoto"
+msgstr ""
+
+#: extendvc/extend-vc.php:2312
+#@ burst
+msgid "Elements Holder"
+msgstr ""
+
+#: extendvc/extend-vc.php:2398
+#@ burst
+msgid "Elements Holder Item"
+msgstr ""
+
+#: extendvc/extend-vc.php:2620
+#@ burst
+msgid "Bordered Elements Holder"
+msgstr ""
+
+#: extendvc/extend-vc.php:2698
+#: extendvc/extend-vc.php:5448
+#: mkdinc/nav_menu/edit_custom_walker.php:207
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2438
+#@ burst
+msgid "Type"
+msgstr ""
+
+#: extendvc/extend-vc.php:3744
+#@ burst
+msgid "Mikado Vertical Split Slider"
+msgstr ""
+
+#: extendvc/extend-vc.php:3799
+#@ burst
+msgid "Left Sliding Panel"
+msgstr ""
+
+#: extendvc/extend-vc.php:3816
+#@ burst
+msgid "Right Sliding Panel"
+msgstr ""
+
+#: extendvc/extend-vc.php:3833
+#: extendvc/extend-vc.php:4060
+#@ burst
+msgid "Slide Content Item"
+msgstr ""
+
+#: extendvc/extend-vc.php:3906
+#@ burst
+msgid "Mikado Vertical Split Slider With Text Over"
+msgstr ""
+
+#: extendvc/extend-vc.php:4026
+#@ burst
+msgid "Left Panel"
+msgstr ""
+
+#: extendvc/extend-vc.php:4043
+#@ burst
+msgid "Right Panel"
+msgstr ""
+
+#: extendvc/extend-vc.php:5997
+#@ burst
+msgid "Please insert padding in format 0px 10px 0px 10px, default value is 0 0 0 0"
+msgstr ""
+
+#: extendvc/extend-vc.php:7601
+#: extendvc/extend-vc.php:7659
+#@ burst
+msgid "Please insert padding in format (top right bottom left) i.e. 5px 5px 5px 5px"
+msgstr ""
+
+#: extendvc/extend-vc.php:7610
+#@ burst
+msgid "Please insert margin in format (top right bottom left) i.e. 5px 5px 5px 5px"
+msgstr ""
+
+#: extendvc/extend-vc.php:8032
+#@ burst
+msgid "Please insert margin in format: 0px 0px 1px 0px"
+msgstr ""
+
+#: extendvc/extend-vc.php:8056
+#: extendvc/extend-vc.php:10305
+#@ burst
+msgid "Please insert border radius(Rounded corners) in px. For example: 4 "
+msgstr ""
+
+#: extendvc/extend-vc.php:12589
+#@ burst
+msgid "Mikado Accordion"
+msgstr ""
+
+#: extendvc/extend-vc.php:12600
+#@ burst
+msgid "Active section"
+msgstr ""
+
+#: extendvc/extend-vc.php:12603
+#@ burst
+msgid "Enter section number to be active on load or enter \"false\" to collapse all sections."
+msgstr ""
+
+#: extendvc/extend-vc.php:12607
+#@ burst
+msgid "Allow collapse all sections?"
+msgstr ""
+
+#: extendvc/extend-vc.php:12609
+#@ burst
+msgid "If checked, it is allowed to collapse all sections."
+msgstr ""
+
+#: extendvc/extend-vc.php:12610
+#: mkdinc/widgets/mkd-call-to-action-widget.php:119
+#: mkdinc/widgets/mkd-call-to-action-widget.php:127
+#: mkdinc/widgets/mkd-call-to-action-widget.php:227
+#@ burst
+msgid "Yes"
+msgstr ""
+
+#: extendvc/extend-vc.php:12614
+#: extendvc/extend-vc.php:12847
+#@ burst
+msgid "Extra class name"
+msgstr ""
+
+#: extendvc/extend-vc.php:12616
+#: extendvc/extend-vc.php:12849
+#@ burst
+msgid "Style particular content element differently - add a class name and refer to it in custom CSS."
+msgstr ""
+
+#: extendvc/extend-vc.php:12707
+#@ burst
+msgid "Mikado Accordion Section"
+msgstr ""
+
+#: extendvc/extend-vc.php:12720
+#: vc_templates/vc_text_separator.php:4
+#@ burst
+msgid "Title"
+msgstr ""
+
+#: extendvc/extend-vc.php:12723
+#@ burst
+msgid "Section"
+msgstr ""
+
+#: extendvc/extend-vc.php:12724
+#@ burst
+msgid "Enter accordion section title."
+msgstr ""
+
+#: extendvc/extend-vc.php:12728
+#@ burst
+msgid "Section ID"
+msgstr ""
+
+#: extendvc/extend-vc.php:12730
+#, php-format
+#@ burst
+msgid "Enter optional row ID. Make sure it is unique, and it is valid as w3c specification: %s (Must not have spaces)"
+msgstr ""
+
+#: extendvc/extend-vc.php:12730
+#@ burst
+msgid "link"
+msgstr ""
+
+#: extendvc/extend-vc.php:12837
+#@ burst
+msgid "Mikado Tabs"
+msgstr ""
+
+#: extendvc/extend-vc.php:12996
+#@ burst
+msgid "Mikado Tab"
+msgstr ""
+
+#: functions.php:482
+#@ burst
+msgid "Top Navigation"
+msgstr ""
+
+#: functions.php:489
+#@ burst
+msgid "Fullscreen Navigation"
+msgstr ""
+
+#: functions.php:496
+#@ burst
+msgid "Left Top Navigation"
+msgstr ""
+
+#: functions.php:502
+#@ burst
+msgid "Right Top Navigation"
+msgstr ""
+
+#: header.php:147
+#: header.php:170
+#: header.php:194
+#: header.php:240
+#: header.php:366
+#: header.php:404
+#: header.php:438
+#: header.php:486
+#: header.php:550
+#: header.php:645
+#: header.php:811
+#: header.php:831
+#: header.php:876
+#: header.php:942
+#: header.php:978
+#: header.php:999
+#: header.php:1023
+#: header.php:1065
+#: header.php:1135
+#@ burst
+msgid "Search"
+msgstr ""
+
+#: header.php:1353
+#@ burst
+msgid "Search:"
+msgstr ""
+
+#: js/default_dynamic.php:116
+#@ burst
+msgid "Loading new posts..."
+msgstr ""
+
+#: js/default_dynamic.php:118
+#@ burst
+msgid "No more posts"
+msgstr ""
+
+#: mkdinc/admin/skins/mikado/templates/content-import.php:109
+#@ burst
+msgid "The import process may take some time. Please be patient."
+msgstr ""
+
+#: mkdinc/admin/skins/mikado/templates/content-import.php:128
+#@ burst
+msgid "Important notes:"
+msgstr ""
+
+#: mkdinc/admin/skins/mikado/templates/content-import.php:130
+#@ burst
+msgid "Please note that import process will take time needed to download all attachments from demo web site."
+msgstr ""
+
+#: mkdinc/admin/skins/mikado/templates/content-import.php:131
+#@ burst
+msgid "If you plan to use shop, please install WooCommerce before you run import."
+msgstr ""
+
+#: mkdinc/admin/skins/mikado/templates/header.php:19
+#@ burst
+msgid "Save Changes"
+msgstr ""
+
+#: mkdinc/comment/comment.php:40
+#@ burst
+msgid "Pingback:"
+msgstr ""
+
+#: mkdinc/comment/comment.php:63
+#@ burst
+msgid "Edit This"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:143
+#: mkdinc/import/class.wordpress-importer.php:194
+#: mkdinc/import/class.wordpress-importer.php:198
+#: mkdinc/import/class.wordpress-importer.php:207
+#@ burst
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:178
+#@ burst
+msgid "All done."
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:178
+#@ burst
+msgid "Have fun!"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:179
+#@ burst
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:199
+#, php-format
+#@ burst
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:215
+#, php-format
+#@ burst
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:240
+#, php-format
+#@ burst
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:266
+#@ burst
+msgid "Assign Authors"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:267
+#@ burst
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:269
+#, php-format
+#@ burst
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:279
+#@ burst
+msgid "Import Attachments"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:282
+#@ burst
+msgid "Download and import file attachments"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:299
+#@ burst
+msgid "Import author:"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:310
+#@ burst
+msgid "or create new user with login name:"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:313
+#@ burst
+msgid "as a new user:"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:321
+#@ burst
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:323
+#@ burst
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:324
+#@ burst
+msgid "- Select -"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:374
+#, php-format
+#@ burst
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:425
+#, php-format
+#@ burst
+msgid "Failed to import category %s"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:465
+#, php-format
+#@ burst
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:511
+#: mkdinc/import/class.wordpress-importer.php:652
+#, php-format
+#@ burst
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:537
+#, php-format
+#@ burst
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:559
+#, php-format
+#@ burst
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:618
+#, php-format
+#@ burst
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:783
+#@ burst
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:790
+#, php-format
+#@ burst
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:856
+#@ burst
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:869
+#@ burst
+msgid "Invalid file type"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:913
+#@ burst
+msgid "Remote server did not respond"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:919
+#, php-format
+#@ burst
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:926
+#@ burst
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:931
+#@ burst
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:937
+#, php-format
+#@ burst
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:1038
+#@ burst
+msgid "Import WordPress"
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:1045
+#, php-format
+#@ burst
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:1060
+#@ burst
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: mkdinc/import/class.wordpress-importer.php:1061
+#@ burst
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: mkdinc/import/mkd-import.php:41
+#: mkdinc/import/mkd-import.php:62
+#@ burst
+msgid "Content imported successfully"
+msgstr ""
+
+#: mkdinc/import/mkd-import.php:59
+#@ burst
+msgid "An Error Occurred During Import"
+msgstr ""
+
+#: mkdinc/import/mkd-import.php:66
+#@ burst
+msgid "Error loading files"
+msgstr ""
+
+#: mkdinc/import/mkd-import.php:77
+#@ burst
+msgid "Widgets imported successfully"
+msgstr ""
+
+#: mkdinc/import/mkd-import.php:96
+#@ burst
+msgid "Custom sidebars imported successfully"
+msgstr ""
+
+#: mkdinc/import/mkd-import.php:102
+#@ burst
+msgid "Options imported successfully"
+msgstr ""
+
+#: mkdinc/import/parsers.php:42
+#: mkdinc/import/parsers.php:78
+#: mkdinc/import/parsers.php:86
+#@ burst
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: mkdinc/import/parsers.php:43
+#@ burst
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: mkdinc/import/parsers.php:90
+#: mkdinc/import/parsers.php:95
+#: mkdinc/import/parsers.php:285
+#: mkdinc/import/parsers.php:474
+#@ burst
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: mkdinc/lib/mkd.functions.php:592
+#@ burst
+msgid ""
+"Note that writing permissions aren't set for folders containing css and js files on your server.\n"
+"\t\t\t\t\tWe recommend setting writing permissions in order to optimize your site performance.\n"
+"\t\t\t\t\tFor further instructions, please refer to our documentation."
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:323
+#@ burst
+msgid "Remove"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:120
+#: mkdinc/widgets/mkd-call-to-action-widget.php:128
+#: mkdinc/widgets/mkd-call-to-action-widget.php:228
+#@ burst
+msgid "No"
+msgstr ""
+
+#: mkdinc/mkd-blog-functions.php:99
+#: templates/blog/blog_masonry_meta_info_featured_on_side-loop.php:161
+#: templates/blog/blog_masonry_meta_info_featured_on_side-loop.php:264
+#: templates/blog/blog_masonry_meta_info_featured_on_side-loop.php:437
+#: templates/blog/blog_masonry_meta_info_featured_on_side-loop.php:608
+#@ burst
+msgid "Read More"
+msgstr ""
+
+#: mkdinc/mkd-blog-functions.php:233
+#@ burst
+msgid "Continue reading"
+msgstr ""
+
+#: mkdinc/mkd-breadcrumbs.php:145
+#@ burst
+msgid "Page"
+msgstr ""
+
+#: mkdinc/mkd-framework.php:532
+#: mkdinc/plugins/class-tgm-plugin-activation.php:404
+#@ burst
+msgid "Dismiss this notice"
+msgstr ""
+
+#: mkdinc/mkd-like.php:116
+#: mkdinc/mkd-like.php:128
+#: mkdinc/mkd-like.php:143
+#: mkdinc/mkd-like.php:155
+#@ burst
+msgid "Like this"
+msgstr ""
+
+#: mkdinc/mkd-like.php:119
+#@ burst
+msgid "You already liked this!"
+msgstr ""
+
+#: mkdinc/mkd-like.php:131
+#: mkdinc/mkd-like.php:146
+#: mkdinc/mkd-like.php:158
+#@ burst
+msgid "You already like this!"
+msgstr ""
+
+#: mkdinc/mkd-plugin-helper-functions.php:325
+#@ burst
+msgid "Yoast SEO page analysis functionality has been disabled due to coding issue in plugin. Plugin author has been notifed and we hope that this issue will be resolved soon."
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: mkdinc/nav_menu/edit_custom_walker.php:79
+#, php-format
+#@ burst
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: mkdinc/nav_menu/edit_custom_walker.php:83
+#, php-format
+#@ burst
+msgid "%s (Pending)"
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:108
+#@ burst
+msgid "Move up"
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:121
+#@ burst
+msgid "Move down"
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:123
+#: mkdinc/nav_menu/edit_custom_walker.php:125
+#@ burst
+msgid "Edit Menu Item"
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:134
+#@ burst
+msgid "URL"
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:141
+#@ burst
+msgid "Navigation Label"
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:147
+#@ burst
+msgid "Title Attribute"
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:154
+#@ burst
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:159
+#@ burst
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:165
+#@ burst
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:171
+#: templates/portfolio/parts/portfolio-content.php:12
+#: templates/portfolio/portfolio-big-images.php:199
+#: templates/portfolio/portfolio-big-slider.php:152
+#: templates/portfolio/portfolio-gallery.php:285
+#@ burst
+msgid "Description"
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:173
+#@ burst
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:181
+#@ burst
+msgid "Anchor"
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:192
+#@ burst
+msgid "Don't link"
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:202
+#@ burst
+msgid "Don't show"
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:217
+#@ burst
+msgid "Wide menu position"
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:227
+#@ burst
+msgid "Background image"
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:241
+#@ burst
+msgid "Icon Pack"
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:247
+#@ burst
+msgid "Only with \"default\" & \"wide with icons\" menu types"
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:258
+#@ burst
+msgid "Icon"
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:279
+#@ burst
+msgid "Featured icon"
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:290
+#@ burst
+msgid "Custom widget area"
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:301
+#@ burst
+msgid "Only with \"wide & wide with icons\" menu type"
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:310
+#, php-format
+#@ burst
+msgid "Original: %s"
+msgstr ""
+
+#: mkdinc/nav_menu/edit_custom_walker.php:324
+#: woocommerce/myaccount/my-orders.php:75
+#@ burst
+msgid "Cancel"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:333
+#: mkdinc/plugins/layer-slider.php:55
+#: mkdinc/plugins/mkd-core.php:52
+#: mkdinc/plugins/mkd-twitter-feed.php:52
+#: mkdinc/plugins/visual-composer.php:51
+#@ burst
+msgid "Install Required Plugins"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:334
+#: mkdinc/plugins/layer-slider.php:56
+#: mkdinc/plugins/mkd-core.php:53
+#: mkdinc/plugins/mkd-twitter-feed.php:53
+#: mkdinc/plugins/visual-composer.php:52
+#@ burst
+msgid "Install Plugins"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:335
+#: mkdinc/plugins/layer-slider.php:57
+#: mkdinc/plugins/mkd-core.php:54
+#: mkdinc/plugins/mkd-twitter-feed.php:54
+#: mkdinc/plugins/visual-composer.php:53
+#, php-format
+#@ burst
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:336
+#: mkdinc/plugins/layer-slider.php:58
+#: mkdinc/plugins/mkd-core.php:55
+#: mkdinc/plugins/mkd-twitter-feed.php:55
+#: mkdinc/plugins/visual-composer.php:54
+#@ burst
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:338
+#: mkdinc/plugins/layer-slider.php:59
+#: mkdinc/plugins/mkd-core.php:56
+#: mkdinc/plugins/mkd-twitter-feed.php:56
+#: mkdinc/plugins/visual-composer.php:55
+#, php-format
+#@ burst
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:343
+#: mkdinc/plugins/layer-slider.php:60
+#: mkdinc/plugins/mkd-core.php:57
+#: mkdinc/plugins/mkd-twitter-feed.php:57
+#: mkdinc/plugins/visual-composer.php:56
+#, php-format
+#@ burst
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:348
+#, php-format
+#@ burst
+msgid "Sorry, but you do not have the correct permissions to install the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:353
+#: mkdinc/plugins/layer-slider.php:65
+#: mkdinc/plugins/mkd-core.php:62
+#: mkdinc/plugins/mkd-twitter-feed.php:62
+#: mkdinc/plugins/visual-composer.php:61
+#, php-format
+#@ burst
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:358
+#, php-format
+#@ burst
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:363
+#, php-format
+#@ burst
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:368
+#: mkdinc/plugins/layer-slider.php:62
+#: mkdinc/plugins/mkd-core.php:59
+#: mkdinc/plugins/mkd-twitter-feed.php:59
+#: mkdinc/plugins/visual-composer.php:58
+#, php-format
+#@ burst
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:373
+#: mkdinc/plugins/layer-slider.php:63
+#: mkdinc/plugins/mkd-core.php:60
+#: mkdinc/plugins/mkd-twitter-feed.php:60
+#: mkdinc/plugins/visual-composer.php:59
+#, php-format
+#@ burst
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:378
+#, php-format
+#@ burst
+msgid "Sorry, but you do not have the correct permissions to activate the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:383
+#: mkdinc/plugins/layer-slider.php:67
+#: mkdinc/plugins/mkd-core.php:64
+#: mkdinc/plugins/mkd-twitter-feed.php:64
+#: mkdinc/plugins/visual-composer.php:63
+#@ burst
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:388
+#@ burst
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:393
+#@ burst
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:397
+#: mkdinc/plugins/layer-slider.php:69
+#: mkdinc/plugins/mkd-core.php:66
+#: mkdinc/plugins/mkd-twitter-feed.php:66
+#: mkdinc/plugins/visual-composer.php:65
+#@ burst
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:398
+#@ burst
+msgid "Return to the dashboard"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:399
+#: mkdinc/plugins/class-tgm-plugin-activation.php:3029
+#: mkdinc/plugins/layer-slider.php:70
+#: mkdinc/plugins/mkd-core.php:67
+#: mkdinc/plugins/mkd-twitter-feed.php:67
+#: mkdinc/plugins/visual-composer.php:66
+#@ burst
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:401
+#, php-format
+#@ burst
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:402
+#, php-format
+#@ burst
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:403
+#, php-format
+#@ burst
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:405
+#@ burst
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:520
+#@ burst
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:521
+#@ burst
+msgid "Update Required"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:635
+#@ burst
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:828
+#: mkdinc/plugins/class-tgm-plugin-activation.php:3438
+#@ burst
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:935
+#@ burst
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:935
+#: mkdinc/plugins/class-tgm-plugin-activation.php:938
+#@ burst
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:938
+#@ burst
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:1116
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2828
+#@ burst
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:1881
+#, php-format
+#@ burst
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2167
+#@ burst
+msgid "Required"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2170
+#@ burst
+msgid "Recommended"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2186
+#@ burst
+msgid "WordPress Repository"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2189
+#@ burst
+msgid "External Source"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2192
+#@ burst
+msgid "Pre-Packaged"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2209
+#@ burst
+msgid "Not Installed"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2213
+#@ burst
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2215
+#@ burst
+msgid "Active"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2221
+#@ burst
+msgid "Required Update not Available"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2224
+#@ burst
+msgid "Requires Update"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2227
+#@ burst
+msgid "Update recommended"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2235
+#, php-format
+#@ burst
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2280
+#, php-format
+#@ burst
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2283
+#, php-format
+#@ burst
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2286
+#, php-format
+#@ burst
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2289
+#, php-format
+#@ burst
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2371
+#@ burst
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2379
+#@ burst
+msgid "Installed version:"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2387
+#@ burst
+msgid "Minimum required version:"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2399
+#@ burst
+msgid "Available version:"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2422
+#, php-format
+#@ burst
+msgid "No plugins to install, update or activate. <a href=\"%1$s\">Return to the Dashboard</a>"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2436
+#@ burst
+msgid "Plugin"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2437
+#@ burst
+msgid "Source"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2442
+#@ burst
+msgid "Version"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2443
+#: woocommerce/myaccount/my-orders.php:34
+#: woocommerce/myaccount/my-orders.php:55
+#@ burst
+msgid "Status"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2491
+#, php-format
+#@ burst
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2495
+#, php-format
+#@ burst
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2500
+#, php-format
+#@ burst
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2570
+#@ burst
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2603
+#@ burst
+msgid "Install"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2609
+#@ burst
+msgid "Update"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2612
+#@ burst
+msgid "Activate"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2643
+#@ burst
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2645
+#@ burst
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2681
+#@ burst
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2683
+#@ burst
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2788
+#@ burst
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2814
+#@ burst
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: mkdinc/plugins/class-tgm-plugin-activation.php:2832
+#: mkdinc/plugins/class-tgm-plugin-activation.php:400
+#@ burst
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:3028
+#@ burst
+msgid "Plugin activation failed."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:3362
+#, php-format
+#@ burst
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:3364
+#, php-format
+#@ burst
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:3365
+#, php-format
+#@ burst
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:3369
+#@ burst
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:3370
+#, php-format
+#@ burst
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:3370
+#: mkdinc/plugins/class-tgm-plugin-activation.php:3376
+#@ burst
+msgid "Show Details"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:3370
+#: mkdinc/plugins/class-tgm-plugin-activation.php:3376
+#@ burst
+msgid "Hide Details"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:3371
+#@ burst
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:3372
+#, php-format
+#@ burst
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:3375
+#@ burst
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:3376
+#, php-format
+#@ burst
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:3377
+#@ burst
+msgid "All installations have been completed."
+msgstr ""
+
+#: mkdinc/plugins/class-tgm-plugin-activation.php:3378
+#, php-format
+#@ burst
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: mkdinc/plugins/layer-slider.php:61
+#: mkdinc/plugins/mkd-core.php:58
+#: mkdinc/plugins/mkd-twitter-feed.php:58
+#: mkdinc/plugins/visual-composer.php:57
+#, php-format
+#@ burst
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: mkdinc/plugins/layer-slider.php:64
+#: mkdinc/plugins/mkd-core.php:61
+#: mkdinc/plugins/mkd-twitter-feed.php:61
+#: mkdinc/plugins/visual-composer.php:60
+#, php-format
+#@ burst
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: mkdinc/plugins/layer-slider.php:66
+#: mkdinc/plugins/mkd-core.php:63
+#: mkdinc/plugins/mkd-twitter-feed.php:63
+#: mkdinc/plugins/visual-composer.php:62
+#, php-format
+#@ burst
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: mkdinc/plugins/layer-slider.php:68
+#: mkdinc/plugins/mkd-core.php:65
+#: mkdinc/plugins/mkd-twitter-feed.php:65
+#: mkdinc/plugins/visual-composer.php:64
+#@ burst
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: mkdinc/plugins/layer-slider.php:71
+#: mkdinc/plugins/mkd-core.php:68
+#: mkdinc/plugins/mkd-twitter-feed.php:68
+#: mkdinc/plugins/visual-composer.php:67
+#, php-format
+#@ burst
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: templates/blog/blog_masonry_meta_info_featured_on_side-loop.php:418
+#: templates/blog/parts/post-info-comments.php:1
+#@ burst
+msgid "Comment"
+msgstr ""
+
+#: templates/blog/blog_masonry_meta_info_featured_on_side-loop.php:418
+#: templates/blog/parts/post-info-comments.php:1
+#@ burst
+msgid "Comments"
+msgstr ""
+
+#: mkdinc/sidebar/mkd-custom-sidebar.php:18
+#@ burst
+msgid "Custom Widget Area"
+msgstr ""
+
+#: mkdinc/sidebar/mkd-custom-sidebar.php:42
+#@ burst
+msgid "Enter Name of the new Widget Area"
+msgstr ""
+
+#: mkdinc/sidebar/mkd-custom-sidebar.php:43
+#@ burst
+msgid "Add Widget Area"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:8
+#@ burst
+msgid "Mikado Call to Action Widget"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:117
+#@ burst
+msgid "Full Width:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:125
+#@ burst
+msgid "Content In Grid:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:133
+#@ burst
+msgid "Grid Size:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:135
+#@ burst
+msgid "75/25"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:136
+#@ burst
+msgid "50/50"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:137
+#@ burst
+msgid "66"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:142
+#@ burst
+msgid "Type:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:144
+#@ burst
+msgid "Normal"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:145
+#@ burst
+msgid "With Icon"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:146
+#@ burst
+msgid "With Custom Icon"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:153
+#@ burst
+msgid "Icon Pack:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:173
+#@ burst
+msgid "Icon:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:185
+#@ burst
+msgid "Icon Position:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:187
+#@ burst
+msgid "Default/Top"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:188
+#@ burst
+msgid "Middle"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:189
+#@ burst
+msgid "Bottom"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:194
+#@ burst
+msgid "Icon Color:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:200
+#@ burst
+msgid "Custom Icon:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:205
+#@ burst
+msgid "Icon Size:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:210
+#@ burst
+msgid "Background Color:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:215
+#@ burst
+msgid "Border Color:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:220
+#@ burst
+msgid "Box padding (top right bottom left) px"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:225
+#@ burst
+msgid "Show Button:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:233
+#@ burst
+msgid "Button position:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:235
+#@ burst
+msgid "Right"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:236
+#@ burst
+msgid "Center"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:237
+#@ burst
+msgid "Left"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:247
+#@ burst
+msgid "Button Text:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:252
+#@ burst
+msgid "Button Link:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:257
+#@ burst
+msgid "Button Target:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:267
+#@ burst
+msgid "Button Text Color:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:272
+#@ burst
+msgid "Button Hover Text Color:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:277
+#@ burst
+msgid "Button Background Color:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:282
+#@ burst
+msgid "Button Hover Background Color:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:287
+#@ burst
+msgid "Button Border Color:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:292
+#@ burst
+msgid "Button Hover Border Color:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:297
+#@ burst
+msgid "Button Border Width"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:303
+#@ burst
+msgid "Button Radius"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:308
+#@ burst
+msgid "Text:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:313
+#@ burst
+msgid "Text Color:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-call-to-action-widget.php:318
+#@ burst
+msgid "Text Size:"
+msgstr ""
+
+#: mkdinc/widgets/mkd-instagram-widget.php:10
+#@ burst
+msgid "Display instagram images"
+msgstr ""
+
+#: mkdinc/widgets/mkd-latest-posts-menu-widget.php:9
+#@ burst
+msgid "Display posts from your blog, for use in dropdown menus"
+msgstr ""
+
+#: mkdinc/widgets/mkd-latest-posts-menu-widget.php:106
+#@ burst
+msgid "Posted in"
+msgstr ""
+
+#: mkdinc/widgets/mkd-latest-posts-menu-widget.php:107
+#@ burst
+msgid " by"
+msgstr ""
+
+#: mkdinc/widgets/mkd-latest-posts-widget.php:9
+#@ burst
+msgid "Display posts from your blog"
+msgstr ""
+
+#: mkdinc/widgets/mkd-sticky-sidebar.php:8
+#@ burst
+msgid "Use this widget to make the sidebar sticky. Drag it into the sidebar above the widget which you want to be the first element in the sticky sidebar."
+msgstr ""
+
+#: mkdinc/widgets/mkd-woocommerce-dropdown-cart.php:8
+#@ burst
+msgid "Mikado Woocommerce Dropdown Cart"
+msgstr ""
+
+#: mkdinc/widgets/mkd-woocommerce-dropdown-cart.php:81
+#: mkdinc/widgets/mkd-woocommerce-dropdown-cart.php:202
+#: woocommerce/cart/cart.php:47
+#@ burst
+msgid "Remove this item"
+msgstr ""
+
+#: mkdinc/widgets/mkd-woocommerce-dropdown-cart.php:89
+#: mkdinc/widgets/mkd-woocommerce-dropdown-cart.php:211
+#@ burst
+msgid "Subtotal"
+msgstr ""
+
+#: mkdinc/widgets/mkd-woocommerce-dropdown-cart.php:100
+#: mkdinc/widgets/mkd-woocommerce-dropdown-cart.php:222
+#@ burst
+msgid "View Your Cart"
+msgstr ""
+
+#: mkdinc/widgets/mkd-woocommerce-dropdown-cart.php:101
+#: mkdinc/widgets/mkd-woocommerce-dropdown-cart.php:223
+#@ burst
+msgid "Checkout"
+msgstr ""
+
+#: mkdinc/widgets/mkd-woocommerce-dropdown-cart.php:106
+#: mkdinc/widgets/mkd-woocommerce-dropdown-cart.php:228
+#@ burst
+msgid "No products in the cart."
+msgstr ""
+
+#: search.php:47
+#: search.php:66
+#: search.php:94
+#: templates/blog/blog-structure.php:202
+#@ burst
+msgid "No posts were found."
+msgstr ""
+
+#: searchform.php:3
+#@ burst
+msgid "Search Here"
+msgstr ""
+
+#: templates/blog/blog-structure.php:210
+#: templates/blog/blog-structure.php:214
+#@ burst
+msgid "Show more"
+msgstr ""
+
+#: templates/blog/blog_masonry-loop.php:122
+#: templates/blog/blog_masonry_meta_info_featured_on_side-loop.php:204
+#: templates/blog/blog_single/blog_standard_type_single-loop.php:197
+#: templates/blog/blog_standard-loop.php:167
+#: templates/blog/blog_standard_whole_post-loop.php:159
+#@ burst
+msgid "Your browser don't support audio player"
+msgstr ""
+
+#: templates/blog/blog_search-loop.php:36
+#@ burst
+msgid "In"
+msgstr ""
+
+#: templates/blog/blog_search-loop.php:42
+#@ burst
+msgid "By"
+msgstr ""
+
+#: templates/blog/blog_single/blog_standard_type_single-loop.php:159
+#: templates/blog/blog_single/blog_standard_type_single-loop.php:235
+#: templates/blog/blog_single/blog_standard_type_single-loop.php:299
+#: templates/blog/blog_single/blog_standard_type_single-loop.php:360
+#: templates/blog/blog_single/blog_standard_type_single-loop.php:426
+#: templates/blog/blog_single/blog_standard_type_single-loop.php:496
+#@ burst
+msgid "Print"
+msgstr ""
+
+#: templates/blog/blog_single-loop.php:72
+#@ burst
+msgid "Post Tags:"
+msgstr ""
+
+#: templates/blog/masonry-filter.php:55
+#@ burst
+msgid "Sort Blog:"
+msgstr ""
+
+#: templates/blog/masonry-filter.php:57
+#@ burst
+msgid "All"
+msgstr ""
+
+#: templates/blog/parts/post-info-like.php:4
+#@ burst
+msgid "Likes"
+msgstr ""
+
+#: templates/portfolio/parts/portfolio-categories.php:43
+#@ burst
+msgid "Categories "
+msgstr ""
+
+#: templates/portfolio/parts/portfolio-date.php:38
+#: woocommerce/myaccount/my-orders.php:33
+#: woocommerce/myaccount/my-orders.php:52
+#@ burst
+msgid "Date"
+msgstr ""
+
+#: templates/portfolio/parts/portfolio-tags.php:43
+#@ burst
+msgid "Tags"
+msgstr ""
+
+#: title.php:606
+#@ burst
+msgid "Author:"
+msgstr ""
+
+#: title.php:612
+#@ burst
+msgid "Results for"
+msgstr ""
+
+#: title.php:617
+#@ burst
+msgid "404 - Page not found"
+msgstr ""
+
+#: title.php:630
+#@ burst
+msgid "Archive"
+msgstr ""
+
+#: vc_templates/no_accordion_section.php:5
+#: vc_templates/vc_accordion_tab.php:5
+#@ burst
+msgid "Accordion Title"
+msgstr ""
+
+#: vc_templates/no_accordion_section.php:94
+#: vc_templates/no_tab.php:36
+#: vc_templates/vc_accordion_tab.php:82
+#: vc_templates/vc_tab.php:35
+#@ burst
+msgid "Empty section. Edit page to add content here."
+msgstr ""
+
+#: vc_templates/no_pricing_list_item.php:199
+#@ burst
+msgid "NEW"
+msgstr ""
+
+#: vc_templates/no_tabs.php:238
+#: vc_templates/vc_tabs.php:233
+#@ burst
+msgid "Previous slide"
+msgstr ""
+
+#: vc_templates/no_tabs.php:238
+#: vc_templates/vc_tabs.php:233
+#@ burst
+msgid "Next slide"
+msgstr ""
+
+#: vc_templates/vc_flickr.php:24
+#@ burst
+msgid "View stream on flickr"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:19
+#@ burst
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:23
+#@ burst
+msgid "Return To Shop"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:20
+#, php-format
+#@ burst
+msgid "Shipping #%d"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:22
+#@ burst
+msgid "Shipping and Handling"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:59
+#@ burst
+msgid "Please use the shipping calculator to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:63
+#@ burst
+msgid "Please continue to the checkout and enter your full address to see if there are any available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:67
+#@ burst
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:76
+#: woocommerce/cart/cart-shipping.php:82
+#@ burst
+msgid "There don&lsquo;t seem to be available shipping methods. Please double check your address, or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:97
+#: woocommerce/cart/cart-totals.php:46
+#@ burst
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:19
+#@ burst
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:24
+#@ burst
+msgid "Cart Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:78
+#@ burst
+msgid "Order Total"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:90
+#, php-format
+#@ burst
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:93
+#, php-format
+#@ burst
+msgid "Note: Shipping and taxes are estimated%s and will be updated during checkout based on your billing and shipping information."
+msgstr ""
+
+#: woocommerce/cart/cart.php:27
+#@ burst
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:28
+#@ burst
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:29
+#@ burst
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:30
+#: woocommerce/myaccount/my-orders.php:35
+#: woocommerce/myaccount/my-orders.php:58
+#@ burst
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:86
+#@ burst
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:132
+#@ burst
+msgid "Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:132
+#@ burst
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:132
+#: woocommerce/checkout/form-coupon.php:26
+#@ burst
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:139
+#@ burst
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:139
+#@ burst
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:24
+#@ burst
+msgid "Calculate Shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:30
+#@ burst
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:47
+#: woocommerce/cart/shipping-calculator.php:53
+#: woocommerce/cart/shipping-calculator.php:65
+#@ burst
+msgid "State / county"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:54
+#@ burst
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:74
+#@ burst
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:82
+#@ burst
+msgid "Postcode / Zip"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:87
+#@ burst
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:18
+#@ burst
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:18
+#@ burst
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:25
+#@ burst
+msgid "Enter coupon code"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:18
+#@ burst
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:22
+#@ burst
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:24
+#@ burst
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:28
+#: woocommerce/myaccount/my-orders.php:68
+#@ burst
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:30
+#@ burst
+msgid "My Account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:36
+#: woocommerce/checkout/thankyou.php:77
+#@ burst
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:40
+#@ burst
+msgid "Order:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:44
+#@ burst
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:48
+#@ burst
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:61
+#@ burst
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/global/form-login.php:28
+#: woocommerce/myaccount/form-login.php:35
+#: woocommerce/myaccount/form-lost-password.php:24
+#@ burst
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/global/form-login.php:31
+#: woocommerce/myaccount/form-login.php:38
+#: woocommerce/myaccount/form-login.php:83
+#@ burst
+msgid "Password"
+msgstr ""
+
+#: woocommerce/global/form-login.php:39
+#: woocommerce/myaccount/form-login.php:28
+#: woocommerce/myaccount/form-login.php:45
+#@ burst
+msgid "Login"
+msgstr ""
+
+#: woocommerce/global/form-login.php:40
+#@ burst
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/global/form-login.php:43
+#: woocommerce/myaccount/form-login.php:48
+#@ burst
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:16
+#@ burst
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/loop/add-to-cart.php:26
+#@ burst
+msgid "Out of stock"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:30
+#@ burst
+msgid "Showing the single result"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:32
+#, php-format
+#@ burst
+msgid "Showing all %d results"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:34
+#, php-format
+#@ burst
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "%1$d–%2$d of %3$d results"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:19
+#: woocommerce/single-product/sale-flash.php:16
+#@ burst
+msgid "Sale"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:20
+#: woocommerce/myaccount/form-lost-password.php:31
+#: woocommerce/myaccount/form-lost-password.php:32
+#@ burst
+msgid "New password"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:21
+#: woocommerce/myaccount/form-lost-password.php:35
+#: woocommerce/myaccount/form-lost-password.php:36
+#@ burst
+msgid "Re-enter new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:25
+#: woocommerce/myaccount/form-lost-password.php:48
+#@ burst
+msgid "Save"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:46
+#@ burst
+msgid "Lost Password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:62
+#: woocommerce/myaccount/form-login.php:96
+#@ burst
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:71
+#@ burst
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:77
+#: woocommerce/single-product-reviews.php:61
+#: woocommerce/woocommerce_configuration.php:90
+#@ burst
+msgid "Email"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:89
+#@ burst
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:22
+#@ burst
+msgid "Lost your password? Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:28
+#@ burst
+msgid "Enter a new password below."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:48
+#@ burst
+msgid "Reset Password"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:17
+#@ burst
+msgid "My Addresses"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:19
+#: woocommerce/myaccount/my-address.php:25
+#@ burst
+msgid "Billing Address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:20
+#@ burst
+msgid "Shipping Address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:23
+#@ burst
+msgid "My Address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:35
+#@ burst
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:45
+#@ burst
+msgid "Edit"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:64
+#@ burst
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:26
+#@ burst
+msgid "Recent Orders"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:32
+#@ burst
+msgid "Order"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:47
+#@ burst
+msgid "Order Number"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:59
+#, php-format
+#@ burst
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/my-orders.php:81
+#@ burst
+msgid "View"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:23
+#@ burst
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:34
+#@ burst
+msgid "Clear selection"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:23
+#@ burst
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:23
+#@ burst
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:27
+#@ burst
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:42
+#@ burst
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/product-image.php:42
+#@ burst
+msgid "Placeholder"
+msgstr ""
+
+#: woocommerce/single-product/related.php:36
+#@ burst
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/tabs/additional-information.php:16
+#@ burst
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:16
+#@ burst
+msgid "Product Description"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:39
+#@ burst
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:41
+#@ burst
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:54
+#@ burst
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:54
+#@ burst
+msgid "Be the first to review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:55
+#, php-format
+#@ burst
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:70
+#@ burst
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:71
+#@ burst
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:72
+#@ burst
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:73
+#@ burst
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:74
+#@ burst
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:75
+#@ burst
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:76
+#@ burst
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:80
+#@ burst
+msgid "Your Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:89
+#@ burst
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/woocommerce_configuration.php:86
+#: woocommerce/woocommerce_configuration.php:97
+#@ burst
+msgid "First name"
+msgstr ""
+
+#: woocommerce/woocommerce_configuration.php:87
+#: woocommerce/woocommerce_configuration.php:98
+#@ burst
+msgid "Last name"
+msgstr ""
+
+#: woocommerce/woocommerce_configuration.php:88
+#: woocommerce/woocommerce_configuration.php:99
+#@ burst
+msgid "Company name"
+msgstr ""
+
+#: woocommerce/woocommerce_configuration.php:89
+#: woocommerce/woocommerce_configuration.php:100
+#@ burst
+msgid "Address"
+msgstr ""
+
+#: woocommerce/woocommerce_configuration.php:91
+#@ burst
+msgid "Phone"
+msgstr ""
+
+#: woocommerce/woocommerce_configuration.php:92
+#: woocommerce/woocommerce_configuration.php:101
+#@ burst
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: woocommerce/woocommerce_configuration.php:244
+#@ burst
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/woocommerce_configuration.php:245
+#@ burst
+msgid "Search Products"
+msgstr ""
+
+#: mkdinc/lib/mkd.functions.php:707
+#@ burst
+msgid ""
+"Installation of the \"Mikado\n"
+"            Core\" plugin is\n"
+"            essential for\n"
+"            proper\n"
+"            theme functioning. Please"
+msgstr ""
+
+#: mkdinc/lib/mkd.functions.php:712
+#@ burst
+msgid "install"
+msgstr ""
+
+#: mkdinc/lib/mkd.functions.php:712
+#@ burst
+msgid ""
+" this\n"
+"            plugin and activate it"
+msgstr ""
+

@@ -1,0 +1,1 @@
+<div class="post_category"><?php the_category(', '); ?></div>

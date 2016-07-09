@@ -1,0 +1,1 @@
+<div class="post_comments_holder"><a class="post_comments" href="<?php comments_link(); ?>" target="_self"><?php comments_number('0 ' . esc_html__('Comments','burst'), '1 '.esc_html__('Comment','burst'), '% '.esc_html__('Comments','burst') ); ?></a></div>

@@ -1,0 +1,8 @@
+1.1
+- Added Burst Intro to list of demo sites in Mikado Settings > Import
+- Added missing demo sites import files
+- Updated Visual Composer to version 4.8
+- Fixed background size for Full Screen menu
+
+1.0.1
+- Fixed import bug

@@ -1,0 +1,11 @@
+.thumbnail {
+    @include mkdf-border-radius(0);
+    border: none;
+    padding: 0;
+}
+
+.mkdf-page {
+    .img-thumbnail {
+        margin-bottom: 15px;
+    }
+}

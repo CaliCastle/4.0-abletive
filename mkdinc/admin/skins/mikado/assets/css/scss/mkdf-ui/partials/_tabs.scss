@@ -1,0 +1,115 @@
+/* ==========================================================================
+   Tabs styles
+   ========================================================================== */
+$mkdf-tabs-background-color: #fcfcfc;
+
+.mkdf-tabs-wrapper {
+
+    .nav-tabs {
+        margin-top: 0;
+
+        & > li {
+            &.active {
+                & > a {
+                    @include mkdf-border-radius(0);
+                    border-left-color: transparent;
+
+                    &:hover,
+                    &:focus {
+                        @include mkdf-border-radius(0);
+                    }
+                }
+            }
+
+            & a > i {
+                width: 25px;
+            }
+        }
+    } //close .nav-tabs
+
+    .mkdf-tabs-content {
+        background-color: $mkdf-tabs-background-color;
+        padding: 20px;
+    } //close .mkdf-tabs-content
+
+    /* Vertical tabs
+   ========================================================================== */
+    &.vertical {
+        .nav-tabs {
+            border-bottom: 0;
+
+            & > li {
+                float: none;
+                width: 100%;
+
+                &.active {
+                    & a,
+                    & a:focus,
+                    & a:hover {
+                        border-bottom: 1px solid $mkdf-border-color;
+                        margin-bottom: 0;
+                        background-color: $mkdf-tabs-background-color;
+						border-left: none;
+                    }
+
+                } //close &.active
+
+                a {
+                    border-bottom: 1px solid $mkdf-border-color;
+
+                    &:focus,
+                    &:hover {
+                        background-color: transparent;
+                        border-top: 1px solid $mkdf-border-color;
+                    }
+                } //close a
+
+            } //close & > li
+
+        } //close .nav-tabs
+
+        .mkdf-tabs-navigation-wrapper,
+        .mkdf-tabs-content {
+            min-height: 300px;
+        }
+
+        .mkdf-tabs-navigation-wrapper {
+            width: 200px;
+        }
+
+        .mkdf-tabs-content {
+            margin-left: 198px;
+            border-left: 1px solid $mkdf-border-color;
+        }
+
+        /* Vertical left tabs
+        ========================================================================== */
+        &.left {
+            .nav-tabs > li {
+                &:first-child > a {
+                    border-top: none;
+                }
+
+                & > a {
+                    border-right-color: $mkdf-tabs-background-color;
+                    margin-right: 0;
+                }
+            }
+
+            .mkdf-tabs-navigation-wrapper {
+                float: left;
+            }
+        } //close &.left
+
+        /* Vertical right tabs
+        ========================================================================== */
+        &.right {
+            .mkdf-tabs-navigation-wrapper,
+            .mkdf-tabs-wrapper.vertical.right .mkdf-tabs-content {
+                float: right;
+            }
+        }
+
+    } //close &.vertical
+
+} //close .mkdf-tabs-wrapper

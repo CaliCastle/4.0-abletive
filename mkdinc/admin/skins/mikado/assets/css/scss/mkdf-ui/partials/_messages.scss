@@ -1,0 +1,7 @@
+/* ==========================================================================
+   Messages styles
+   ========================================================================== */
+.mkdf-page-content-wrapper .mkdf-page-message .alert {
+  margin: 0;
+  @include mkdf-border-radius(0);
+}
