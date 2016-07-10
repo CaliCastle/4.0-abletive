@@ -14,7 +14,7 @@ $j(window).on('resize', function() {
 
 function initSelect2() {
 	"use strict";
-    $j('.woocommerce-ordering .orderby, #calc_shipping_country, #dropdown_product_cat').select2({
+    $j('.woocommerce-ordering .orderby, #calc_shipping_country, #calc_shipping_state, #dropdown_product_cat').select2({
         minimumResultsForSearch: -1
     });
     $j('.woocommerce-account .country_select').select2();

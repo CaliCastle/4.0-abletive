@@ -2,9 +2,18 @@
 /**
  * Cart Page
  *
- * @author 		WooThemes
- * @package 	WooCommerce/Templates
- * @version     2.3.8
+ * This template can be overridden by copying it to yourtheme/woocommerce/cart/cart.php.
+ *
+ * HOWEVER, on occasion WooCommerce will need to update template files and you
+ * (the theme developer) will need to copy the new files to your theme to
+ * maintain compatibility. We try to do this as little as possible, but it does
+ * happen. When this occurs the version of the template file will be bumped and
+ * the readme will list any important changes.
+ *
+ * @see     https://docs.woothemes.com/document/template-structure/
+ * @author  WooThemes
+ * @package WooCommerce/Templates
+ * @version 2.3.8
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -15,11 +24,11 @@ wc_print_notices();
 
 do_action( 'woocommerce_before_cart' ); ?>
 
-<form action="<?php echo esc_url( WC()->cart->get_cart_url() ); ?>" method="post">
+<form action="<?php echo esc_url( wc_get_cart_url() ); ?>" method="post">
 
 <?php do_action( 'woocommerce_before_cart_table' ); ?>
 
-<table class="shop_table cart" cellspacing="0">
+<table class="shop_table shop_table_responsive cart" cellspacing="0">
 	<thead>
 		<tr>
 			<th class="product-remove">&nbsp;</th>
@@ -39,20 +48,27 @@ do_action( 'woocommerce_before_cart' ); ?>
 			$product_id   = apply_filters( 'woocommerce_cart_item_product_id', $cart_item['product_id'], $cart_item, $cart_item_key );
 
 			if ( $_product && $_product->exists() && $cart_item['quantity'] > 0 && apply_filters( 'woocommerce_cart_item_visible', true, $cart_item, $cart_item_key ) ) {
+                $product_permalink = apply_filters( 'woocommerce_cart_item_permalink', $_product->is_visible() ? $_product->get_permalink( $cart_item ) : '', $cart_item, $cart_item_key );
 				?>
 				<tr class="<?php echo esc_attr( apply_filters( 'woocommerce_cart_item_class', 'cart_item', $cart_item, $cart_item_key ) ); ?>">
 
 					<td class="product-remove">
-						<?php
-							echo apply_filters( 'woocommerce_cart_item_remove_link', sprintf( '<a href="%s" class="remove" title="%s">&times;</a>', esc_url( WC()->cart->get_remove_url( $cart_item_key ) ), esc_html__( 'Remove this item', 'burst' ) ), $cart_item_key );
-						?>
+                        <?php
+                        echo apply_filters( 'woocommerce_cart_item_remove_link', sprintf(
+                            '<a href="%s" class="remove" title="%s" data-product_id="%s" data-product_sku="%s">&times;</a>',
+                            esc_url( WC()->cart->get_remove_url( $cart_item_key ) ),
+                            __( 'Remove this item', 'burst' ),
+                            esc_attr( $product_id ),
+                            esc_attr( $_product->get_sku() )
+                        ), $cart_item_key );
+                        ?>
 					</td>
 
 					<td class="product-thumbnail">
 						<?php
 							$thumbnail = apply_filters( 'woocommerce_cart_item_thumbnail', $_product->get_image(), $cart_item, $cart_item_key );
 
-							if ( ! $_product->is_visible() ) {
+							if ( ! $product_permalink ) {
 								echo wp_kses($thumbnail, array(
 									'img' => array(
 										'src' => true,
@@ -70,9 +86,9 @@ do_action( 'woocommerce_before_cart' ); ?>
 						?>
 					</td>
 
-					<td class="product-name">
+                    <td class="product-name" data-title="<?php _e( 'Product', 'burst' ); ?>">
 						<?php
-							if ( ! $_product->is_visible() ) {
+							if ( ! $product_permalink ) {
 								echo apply_filters( 'woocommerce_cart_item_name', $_product->get_title(), $cart_item, $cart_item_key ) . '&nbsp;';
 							} else {
 								echo apply_filters( 'woocommerce_cart_item_name', sprintf( '<a href="%s">%s </a>', esc_url( $_product->get_permalink( $cart_item ) ), $_product->get_title() ), $cart_item, $cart_item_key );
@@ -88,13 +104,13 @@ do_action( 'woocommerce_before_cart' ); ?>
 						?>
 					</td>
 
-					<td class="product-price">
+                    <td class="product-price" data-title="<?php _e( 'Price', 'burst' ); ?>">
 						<?php
 							echo apply_filters( 'woocommerce_cart_item_price', WC()->cart->get_product_price( $_product ), $cart_item, $cart_item_key );
 						?>
 					</td>
 
-					<td class="product-quantity">
+                    <td class="product-quantity" data-title="<?php _e( 'Quantity', 'burst' ); ?>">
 						<?php
 							if ( $_product->is_sold_individually() ) {
 								$product_quantity = sprintf( '1 <input type="hidden" name="cart[%s][qty]" value="1" />', $cart_item_key );
@@ -111,7 +127,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 						?>
 					</td>
 
-					<td class="product-subtotal">
+                    <td class="product-subtotal" data-title="<?php _e( 'Total', 'burst' ); ?>">
 						<?php
 							echo apply_filters( 'woocommerce_cart_item_subtotal', WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ), $cart_item, $cart_item_key );
 						?>
@@ -126,7 +142,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 		<tr>
 			<td colspan="6" class="actions">
 
-				<?php if ( WC()->cart->coupons_enabled() ) { ?>
+				<?php if ( wc_coupons_enabled() ) { ?>
 					<div class="coupon">
 
 						<label for="coupon_code"><?php esc_html_e( 'Coupon', 'burst' ); ?>:</label> <input type="text" name="coupon_code" class="input-text" id="coupon_code" value="" placeholder="<?php esc_html_e( 'Coupon code', 'burst' ); ?>" /> <input type="submit" class="button" name="apply_coupon" value="<?php esc_html_e( 'Apply Coupon', 'burst' ); ?>" />
@@ -136,7 +152,9 @@ do_action( 'woocommerce_before_cart' ); ?>
 					</div>
 				<?php } ?>
 
-				<input type="submit" class="button" name="update_cart" value="<?php esc_html_e( 'Update Cart', 'burst' ); ?>" /> <input type="submit" class="checkout-button button alt wc-forward" name="proceed" value="<?php esc_html_e( 'Proceed to Checkout', 'burst' ); ?>" />
+				<input type="submit" class="button" name="update_cart" value="<?php esc_html_e( 'Update Cart', 'burst' ); ?>" />
+
+                <?php do_action( 'woocommerce_proceed_to_checkout' ); ?>
 
 				<?php do_action( 'woocommerce_cart_actions' ); ?>
 
@@ -156,7 +174,9 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 	<?php do_action( 'woocommerce_cart_collaterals' ); ?>
 
-	<?php woocommerce_shipping_calculator(); ?>
+    <?php if ( is_cart() ) : ?>
+        <?php woocommerce_shipping_calculator(); ?>
+    <?php endif; ?>
 
 </div>
 

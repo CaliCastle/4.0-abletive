@@ -151,7 +151,9 @@
 	.testimonials.with_icon .testimonial_with_icon_holder .testimonial_icon_holder span,
 	.vc_grid-container .vc_grid-filter.vc_grid-filter-color-grey > .vc_grid-filter-item:hover span,
 	.vc_grid-container .vc_grid-filter.vc_grid-filter-color-grey > .vc_grid-filter-item.vc_active span,
-    .icon_slider_controls_holder span.icon_slider_nav_icon .icon_slider_icon.flex-active{
+    .icon_slider_controls_holder span.icon_slider_nav_icon .icon_slider_icon.flex-active,
+    .woocommerce-account .woocommerce-MyAccount-navigation ul li.is-active a,
+    .woocommerce-account .woocommerce-MyAccount-navigation ul li a:hover{
 		color: <?php echo esc_attr($mkd_burst_options['first_color']); ?>;
     }
 

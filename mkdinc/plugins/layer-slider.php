@@ -25,7 +25,7 @@ function mkd_burst_register_required_plugins() {
 		array(
 			'name'     				=> 'LayerSlider WP', // The plugin name
 			'slug'     				=> 'LayerSlider', // The plugin slug (typically the folder name)
-			'source'   				=> get_template_directory() . '/plugins/layersliderwp-5.6.2.installable.zip', // The plugin source
+			'source'   				=> get_template_directory() . '/plugins/layersliderwp-5.6.8.installable.zip', // The plugin source
 			'required' 				=> true, // If false, the plugin is only 'recommended' instead of required
 			'version' 				=> '', // E.g. 1.0.0. If set, the active plugin must be this version or higher, otherwise a notice is presented
 			'force_activation' 		=> false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch

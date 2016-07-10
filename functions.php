@@ -37,7 +37,6 @@ include_once get_template_directory().'/mkdinc/widgets/mkd-sticky-sidebar.php';
 include_once get_template_directory().'/mkdinc/widgets/mkd-latest-posts-widget.php';
 include_once get_template_directory().'/mkdinc/widgets/mkd-latest-posts-menu-widget.php';
 include_once get_template_directory().'/mkdinc/widgets/mkd-instagram-widget.php';
-include_once get_template_directory().'/notify.php';
 
 //does woocommerce function exists?
 if(function_exists("is_woocommerce")){
@@ -447,7 +446,7 @@ if (!function_exists('mkd_burst_scripts')) {
 		wp_enqueue_script("isotope", MIKADO_ROOT."/js/jquery.isotope.min.js",array("jquery"),false,true);
 
 	   //include google map api script
-		wp_enqueue_script("google_map_api", "http://maps.google.cn/maps/api/js?sensor=false&language=zh-CN", array(), false, true);
+		wp_enqueue_script("google_map_api", "//maps.googleapis.com/maps/api/js", array(), false, true);
 
         if (file_exists(get_template_directory() ."/js/default_dynamic.js") && mkd_burst_is_js_folder_writable() && !is_multisite()) {
             wp_enqueue_script("mkd_burst_default_dynamic", MIKADO_ROOT."/js/default_dynamic.js",array("jquery"), filemtime(get_template_directory() ."/js/default_dynamic.js"),true);

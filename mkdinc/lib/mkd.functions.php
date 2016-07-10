@@ -197,9 +197,9 @@ if (!function_exists('mkd_burst_generate_dynamic_css_and_js')){
 		}
 	}
 
-//	if(!is_multisite()) {
-//		add_action('mkd_after_theme_option_save', 'mkd_burst_generate_dynamic_css_and_js');
-//	}
+	if(!is_multisite()) {
+		add_action('mkd_after_theme_option_save', 'mkd_burst_generate_dynamic_css_and_js');
+	}
 }
 
 if (!function_exists('mkd_burst_gallery_upload_get_images')) {
@@ -217,7 +217,7 @@ if (!function_exists('mkd_burst_gallery_upload_get_images')) {
 		exit;
 	}
 
-	add_action( 'wp_ajax_mkd_gallery_upload_get_images', 'mkd_burst_gallery_upload_get_images');
+	add_action( 'wp_ajax_mkd_burst_gallery_upload_get_images', 'mkd_burst_gallery_upload_get_images');
 }
 
 if (!function_exists('mkd_burst_hex2rgb')) {

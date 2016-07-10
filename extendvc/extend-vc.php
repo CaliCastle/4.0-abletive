@@ -85,6 +85,17 @@ if (function_exists('vc_remove_param')) {
 	vc_remove_param('vc_text_separator', 'el_width');
 	vc_remove_param('vc_text_separator', 'title_align');
 	vc_remove_param('vc_accordion', 'title');
+	vc_remove_param('vc_row', 'gap');
+    vc_remove_param('vc_row', 'columns_placement');
+    vc_remove_param('vc_row', 'equal_height');
+    vc_remove_param('vc_row_inner', 'gap');
+    vc_remove_param('vc_row_inner', 'content_placement');
+    vc_remove_param('vc_row_inner', 'equal_height');
+    vc_remove_param('vc_row', 'parallax_speed_video');
+    vc_remove_param('vc_row', 'parallax_speed_bg');
+    vc_remove_param('vc_row_inner', 'disable_element');
+    vc_remove_param('vc_row', 'disable_element');
+
 
     //remove vc parallax functionality
     vc_remove_param('vc_row', 'parallax');
@@ -7304,7 +7315,8 @@ vc_map( array(
 				"class" => "",
 				"heading" => "Text",
 				"param_name" => "text",
-				"value" => "Blockquote text"
+				"value" => "Blockquote text",
+				"save_always" => true
 			),
             array(
 				"type" => "colorpicker",
@@ -7532,7 +7544,8 @@ vc_map( array(
 			"class" => "",
 			"heading" => "Font weight",
 			"param_name" => "font_weight",
-			"value" => "300"
+			"value" => "300",
+			"save_always" => true
 		),
 		array(
 			"type" => "colorpicker",
@@ -13041,7 +13054,7 @@ vc_map( array(
 vc_map( array(
 		"name" => "Image Stack",
 		"base" => "no_image_stack",
-		"category" => 'by Elated',
+		"category" => 'by MIKADO',
 		"icon" => "icon-wpb-image-stack extended-custom-icon",
 		"allowed_container_element" => 'vc_row',
 		"params" => array(
@@ -13127,7 +13140,7 @@ vc_map( array(
 vc_map( array(
 		"name" => "Interactive Pie Chart",
 		"base" => "no_interactive_pie_chart",
-		"category" => 'by Elated',
+		"category" => 'by MIKADO',
 		"icon" => "icon-wpb-interactive-pie-chart extended-custom-icon",
 		"allowed_container_element" => 'vc_row',
 		"params" => array(
@@ -13221,7 +13234,7 @@ vc_map( array(
 vc_map( array(
 	"name" => "Interactive Info Card",
 		"base" => "no_interactive_info_card",
-		"category" => 'by Elated',
+		"category" => 'by MIKADO',
 		"icon" => "icon-wpb-interactive-info-card extended-custom-icon",
 		"allowed_container_element" => 'vc_row',
 		"params" => array_merge(

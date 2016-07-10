@@ -5678,10 +5678,17 @@ if (!function_exists('no_social_share')) {
                     $html .= '<div class="social_share_dropdown"><ul>';
                     if (isset($mkd_burst_options['enable_facebook_share']) && $mkd_burst_options['enable_facebook_share'] == "yes") {
                         $html .= '<li class="facebook_share">';
-                        $html .= '<a class="share_link" href="#" onclick="window.open(\'http://www.facebook.com/sharer.php?s=100&amp;p[title]=' . urlencode(mkd_burst_addslashes(get_the_title())) . '&amp;p[summary]=' . urlencode(mkd_burst_addslashes(get_the_excerpt())) . '&amp;p[url]=' . urlencode(get_permalink()) . '&amp;p[images][0]=';
-                        if (function_exists('the_post_thumbnail')) {
-                            $html .= wp_get_attachment_url(get_post_thumbnail_id());
+                        if(wp_is_mobile()) {
+                            $html .= '<a title="'.__("Share on Facebook","burst").'" href="javascript:void(0)" onclick="window.open(\'http://m.facebook.com/sharer.php?u=' . urlencode(get_permalink());
                         }
+                        else {
+                            $html .= '<a title="'.__("Share on Facebook","burst").'" href="javascript:void(0)" onclick="window.open(\'http://www.facebook.com/sharer.php?s=100&amp;p[title]=' . urlencode(mkd_burst_addslashes(get_the_title())) . '&amp;p[url]=' . urlencode(get_permalink()) . '&amp;p[images][0]=';
+                            if(function_exists('the_post_thumbnail')) {
+                                $html .=  wp_get_attachment_url(get_post_thumbnail_id());
+                            }
+                        }
+
+                        $html .= '&amp;p[summary]=' . urlencode(mkd_burst_addslashes(strip_tags(get_the_excerpt())));
                         $html .='\', \'sharer\', \'toolbar=0,status=0,width=620,height=280\');">';
                         if (!empty($mkd_burst_options['facebook_icon'])) {
                             $html .= '<img src="' . esc_url($mkd_burst_options["facebook_icon"]) . '" alt="" />';
@@ -5694,7 +5701,12 @@ if (!function_exists('no_social_share')) {
 
                     if ($mkd_burst_options['enable_twitter_share'] == "yes") {
                         $html .= '<li class="twitter_share">';
-                        $html .= '<a class="share_link" href="#" onclick="popUp=window.open(\'http://twitter.com/home?status=' . urlencode(mkd_burst_the_excerpt_max_charlength($count_char) . $twitter_via) . get_permalink() . '\', \'popupwindow\', \'scrollbars=yes,width=800,height=400\');popUp.focus();return false;">';
+                        if(wp_is_mobile()) {
+                            $html .= '<a href="#" onclick="popUp=window.open(\'https://twitter.com/intent/tweet?text=' . urlencode(mkd_burst_the_excerpt_max_charlength($count_char) . $twitter_via) . get_permalink() . '\', \'popupwindow\', \'scrollbars=yes,width=800,height=400\');popUp.focus();return false;">';
+                        }
+                        else {
+                            $html .= '<a href="#" onclick="popUp=window.open(\'http://twitter.com/home?status=' . urlencode(mkd_burst_the_excerpt_max_charlength($count_char) . $twitter_via) . get_permalink() . '\', \'popupwindow\', \'scrollbars=yes,width=800,height=400\');popUp.focus();return false;">';
+                        }
                         if (!empty($mkd_burst_options['twitter_icon'])) {
                             $html .= '<img src="' . esc_url($mkd_burst_options["twitter_icon"]) . '" alt="" />';
                         } else {
@@ -5825,10 +5837,17 @@ if (!function_exists('no_social_share_list')) {
 
                     if (isset($mkd_burst_options['enable_facebook_share']) && $mkd_burst_options['enable_facebook_share'] == "yes") {
                         $html .= '<li class="facebook_share">';
-                        $html .= '<a title="' . esc_html__("Share on Facebook", "burst") . '" href="#" onclick="window.open(\'http://www.facebook.com/sharer.php?s=100&amp;p[title]=' . urlencode(mkd_burst_addslashes(get_the_title())) . '&amp;p[summary]=' . urlencode(mkd_burst_addslashes(get_the_excerpt())) . '&amp;p[url]=' . urlencode(get_permalink()) . '&amp;p[images][0]=';
-                        if (function_exists('the_post_thumbnail')) {
-                            $html .= wp_get_attachment_url(get_post_thumbnail_id());
+                        if(wp_is_mobile()) {
+                            $html .= '<a title="'.__("Share on Facebook","burst").'" href="javascript:void(0)" onclick="window.open(\'http://m.facebook.com/sharer.php?u=' . urlencode(get_permalink());
                         }
+                        else {
+                            $html .= '<a title="'.__("Share on Facebook","burst").'" href="javascript:void(0)" onclick="window.open(\'http://www.facebook.com/sharer.php?s=100&amp;p[title]=' . urlencode(mkd_burst_addslashes(get_the_title())) . '&amp;p[url]=' . urlencode(get_permalink()) . '&amp;p[images][0]=';
+                            if(function_exists('the_post_thumbnail')) {
+                                $html .=  wp_get_attachment_url(get_post_thumbnail_id());
+                            }
+                        }
+
+                        $html .= '&amp;p[summary]=' . urlencode(mkd_burst_addslashes(strip_tags(get_the_excerpt())));
                         $html .='\', \'sharer\', \'toolbar=0,status=0,width=620,height=280\');">';
                         if (!empty($mkd_burst_options['facebook_icon'])) {
                             $html .= '<img src="' . esc_url($mkd_burst_options["facebook_icon"]) . '" alt="" />';
@@ -5841,7 +5860,12 @@ if (!function_exists('no_social_share_list')) {
 
                     if ($mkd_burst_options['enable_twitter_share'] == "yes") {
                         $html .= '<li class="twitter_share">';
-                        $html .= '<a href="#" title="' . esc_html__("Share on Twitter", 'burst') . '" onclick="popUp=window.open(\'http://twitter.com/home?status=' . urlencode(mkd_burst_the_excerpt_max_charlength(mb_strlen(get_permalink())) . $twitter_via) . get_permalink() . '\', \'popupwindow\', \'scrollbars=yes,width=800,height=400\');popUp.focus();return false;">';
+                        if(wp_is_mobile()) {
+                            $html .= '<a href="#" title="'.__("Share on Twitter", 'burst').'" onclick="popUp=window.open(\'http://twitter.com/intent/tweet?text=' . urlencode(mkd_burst_the_excerpt_max_charlength(mb_strlen(get_permalink())) . $twitter_via) . get_permalink() . '\', \'popupwindow\', \'scrollbars=yes,width=800,height=400\');popUp.focus();return false;">';
+                        }
+                        else {
+                            $html .= '<a href="#" title="'.__("Share on Twitter", 'burst').'" onclick="popUp=window.open(\'http://twitter.com/home?status=' . urlencode(mkd_burst_the_excerpt_max_charlength(mb_strlen(get_permalink())) . $twitter_via) . get_permalink() . '\', \'popupwindow\', \'scrollbars=yes,width=800,height=400\');popUp.focus();return false;">';
+                        }
                         if (!empty($mkd_burst_options['twitter_icon'])) {
                             $html .= '<img src="' . esc_url($mkd_burst_options["twitter_icon"]) . '" alt="" />';
                         } else {

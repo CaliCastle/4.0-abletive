@@ -164,8 +164,8 @@ function setPageMeta(meta_data) {
     var newTitle = meta_data.find(".seo_title").text();
     var newDescription = meta_data.find(".seo_description").text();
     var newKeywords = meta_data.find(".seo_keywords").text();
-    $j('head meta[name=description]').attr('content', newDescription);
-    $j('head meta[name=keywords]').attr('content', newKeywords);
+    $j('head meta[name="description"]').attr('content', newDescription);
+    $j('head meta[name="keywords"]').attr('content', newKeywords);
     document.title = newTitle;
 
     var newBodyClasses = meta_data.find(".body_classes").text();

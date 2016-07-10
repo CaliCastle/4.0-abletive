@@ -4164,7 +4164,7 @@ function initMobileMenu(){
 		}
 	});
 
-	$j(".mobile_menu > ul > li.has_sub > span.mobile_arrow, .mobile_menu > ul > li.has_sub > h3, .mobile_menu > ul > li.has_sub > a[href*=#]").on('tap click', function(e){
+	$j(".mobile_menu > ul > li.has_sub > span.mobile_arrow, .mobile_menu > ul > li.has_sub > h3, .mobile_menu > ul > li.has_sub > a[href*='#']").on('tap click', function(e){
         e.preventDefault();
 
         if ($j(this).closest('li.has_sub').find("> ul.sub_menu").is(":visible")){
@@ -4176,7 +4176,7 @@ function initMobileMenu(){
 		}
 	});
 
-	$j(".mobile_menu > ul > li.has_sub > ul.sub_menu > li.has_sub > span.mobile_arrow, .mobile_menu > ul > li.has_sub > ul.sub_menu > li.has_sub > h3, .mobile_menu > ul > li.has_sub > ul.sub_menu > li.has_sub > a[href*=#]").on('tap click', function(e){
+	$j(".mobile_menu > ul > li.has_sub > ul.sub_menu > li.has_sub > span.mobile_arrow, .mobile_menu > ul > li.has_sub > ul.sub_menu > li.has_sub > h3, .mobile_menu > ul > li.has_sub > ul.sub_menu > li.has_sub > a[href*='#']").on('tap click', function(e){
         e.preventDefault();
 
         if ($j(this).parent().find("ul.sub_menu").is(":visible")){
@@ -4680,9 +4680,9 @@ function initTestimonialCarousel() {
 			var iconClasses = getIconClassesForNavigation(directionNavArrowsTestimonials);
             var maxItems = 3;
             var itemWidthTemp;
-			var blogs_shown = 3;
+			var items_shown = 3;
 
-            switch(blogs_shown) {
+            switch(items_shown) {
                 case 3:
                     itemWidthTemp = 667;
                     break;
@@ -4702,12 +4702,13 @@ function initTestimonialCarousel() {
             }
 
             var itemWidth = ($j(this).parents('.grid_section').length == 1) ? 353 : itemWidthTemp;
-
+            var minItems = responsiveNumberCarousels(maxItems);
             var $highlight = function() { 
 
                 var $this = $j(this);
                 var items = $this.triggerHandler("currentVisible");     //get all visible items
                 $this.children().removeClass("active");                 // remove all .active classes
+
                 items.filter(":eq(0)").addClass("active");              // add .active class to n-th item
                 items.filter(":eq(1)").addClass("active");              // add .active class to n-th item
                 items.filter(":eq(2)").addClass("active");              // add .active class to n-th item
@@ -4717,7 +4718,7 @@ function initTestimonialCarousel() {
                 circular: true,
                 responsive: true,
                 scroll : {
-                            items            : 3,
+                            items            : minItems,
                             fx : "directscroll", // Possible values: "none", "scroll", "directscroll", "fade", "crossfade", "cover", "cover-fade", "uncover" or "uncover-fade"
                             easing            : "swing",
                             duration        : 400,
@@ -4741,7 +4742,7 @@ function initTestimonialCarousel() {
                 items: {
                     width: itemWidth,
                     visible: {
-                        min: responsiveNumberCarousels(maxItems),
+                        min: minItems,
                         max: maxItems
                     }
                 },
@@ -5377,7 +5378,7 @@ function checkAnchorOnLoad(){
 function changeActiveState(id){
     "use strict";
 
-    if($j('.main_menu a[href*=#]').length) {
+    if($j('.main_menu a[href*="#"]').length) {
         $j('.main_menu a').parent().removeClass('active');
     }
 	$j(".main_menu a").each(function(){
@@ -5393,7 +5394,7 @@ function changeActiveState(id){
 		}
 	});
 
-    if($j('.vertical_menu a[href*=#]').length) {
+    if($j('.vertical_menu a[href*="#"]').length) {
         $j('.vertical_menu a').parent().removeClass('active');
     }
 	$j(".vertical_menu a").each(function(){
@@ -5409,7 +5410,7 @@ function changeActiveState(id){
 		}
 	});
 
-    if($j('.popup_menu a[href*=#]').length) {
+    if($j('.popup_menu a[href*="#"]').length) {
         $j('.popup_menu a').parent().removeClass('active');
     }
 	 $j(".popup_menu a").each(function(){
@@ -5425,7 +5426,7 @@ function changeActiveState(id){
 		}
 	});
 
-    if($j('.mobile_menu a[href*=#]').length) {
+    if($j('.mobile_menu a[href*="#"]').length) {
         $j('.mobile_menu a').parent().removeClass('active');
     }
 	$j(".mobile_menu a").each(function(){
@@ -8101,7 +8102,7 @@ function createTabIcons() {
             icon = $j(this).data('icon-html');
         }
 
-        var tabNav = $j(this).parents('.mkd_tabs').find('ul.tabs-nav > li > a[href=#'+id+']');
+        var tabNav = $j(this).parents('.mkd_tabs').find('ul.tabs-nav > li > a[href="#'+id+'"]');
         
         if(typeof(tabNav) !== 'undefined') {
             tabNav.children('.icon_frame').append(icon);

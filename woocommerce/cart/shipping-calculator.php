@@ -2,24 +2,33 @@
 /**
  * Shipping Calculator
  *
+ * This template can be overridden by copying it to yourtheme/woocommerce/cart/shipping-calculator.php.
+ *
+ * HOWEVER, on occasion WooCommerce will need to update template files and you
+ * (the theme developer) will need to copy the new files to your theme to
+ * maintain compatibility. We try to do this as little as possible, but it does
+ * happen. When this occurs the version of the template file will be bumped and
+ * the readme will list any important changes.
+ *
+ * @see 	    https://docs.woothemes.com/document/template-structure/
  * @author 		WooThemes
  * @package 	WooCommerce/Templates
  * @version     2.0.8
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
+    exit; // Exit if accessed directly
 }
 
-if ( get_option( 'woocommerce_enable_shipping_calc' ) === 'no' || ! WC()->cart->needs_shipping() ) {
-	return;
+if ( 'no' === get_option( 'woocommerce_enable_shipping_calc' ) || ! WC()->cart->needs_shipping() ) {
+    return;
 }
 
 ?>
 
 <?php do_action( 'woocommerce_before_shipping_calculator' ); ?>
 
-<form class="shipping_calculator" action="<?php echo esc_url( WC()->cart->get_cart_url() ); ?>" method="post">
+<form class="woocommerce-shipping-calculator shipping_calculator" action="<?php echo esc_url( WC()->cart->get_cart_url() ); ?>" method="post">
 
 	<h2><a href="#" class="shipping-calculator-button"><?php esc_html_e( 'Calculate Shipping', 'burst' ); ?><span>&darr;</span></a></h2>
 
