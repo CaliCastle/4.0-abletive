@@ -1,0 +1,28 @@
+
+
+.z_index_top {position:relative; z-index:111;}
+
+@media only screen and (max-width: 600px) {
+    .header_top{
+        display: none !important;
+    }
+}
+
+.retina-image img{
+    width: 234px;
+}
+
+.custom-popup .single_image_popup_message {
+    border-radius: 100px;
+    height: 70px;
+    padding: 0;
+    width: 70px;
+    right: 13px !important;
+    top: -30px !important;
+}
+.custom-popup span{
+    line-height: 12px;
+}
+.custom-popup .popup_message_tip{
+    display: none;
+}
